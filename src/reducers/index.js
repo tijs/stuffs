@@ -1,8 +1,13 @@
 import { combineReducers } from 'redux';
-import Assets from './Assets';
-import Auth from './Auth';
+import assets from './Assets';
+import auth from './Auth';
+
+// export default combineReducers({
+//   assets: () => Assets,
+//   auth: () => Auth
+// });
 
 export default combineReducers({
-  assets: () => Assets,
-  auth: () => Auth
+  assets,
+  auth,
 });
